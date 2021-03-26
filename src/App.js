@@ -7,6 +7,7 @@ function App() {
     // BEM
     <div className="app">
 
+
       <Home/>
       {/* Home */}
         {/* Header */}
