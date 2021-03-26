@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Home';
 import Header from './Header';
+import CovidResponse from './CovidResponse';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     
     // BEM
     <div className="app">
-
+      <CovidResponse/>
       <Header/>
       <Home/>
       {/* Home */}
