@@ -1,7 +1,37 @@
+.header{
+    /* puts it into a row */
+    display:flex;
+    /* gives space between each div */
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky, and top:0, allows the header to stay at the top as we scroll up and down the page*/
+    position: sticky;
+    top:0;
+    background-color: black;
+    z-index: 100;
+    width: 100%;
+}
+
 .header_logo{
     /* object-fit, keeps aspect ratio  */
     object-fit: contain;
     height:100px;
     margin-left:20px;
+}
+
+.header_center{
+display: flex;
+/* this will allow the input field to take up the majority of the room */
+flex:1;
+align-items: center;
+color:white;
+}
+
+.header_right{
+    /* display:flex, puts everything within the div into the same row  */
+    display: flex;
+    /* align items:center puts everything on the same row with other components*/
+    align-items: center;
+    color:white;
 
 }
