@@ -1,11 +1,25 @@
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
     
     // BEM
     <div className="app">
-      <h1>Airbnb React App🚀</h1>
+
+      <Home/>
+      {/* Home */}
+        {/* Header */}
+
+        {/* Banner */}
+          {/* Search */}
+
+        {/* Cards */}
+
+        {/* Footer */}
+
+      {/* SearchPage */}
+          {/*  */}
 
     </div>
   );
