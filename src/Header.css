@@ -4,11 +4,11 @@
     /* gives space between each div */
     justify-content: space-between;
     align-items: center;
-    /* position: sticky, and top:0, allows the header to stay at the top as we scroll up and down the page*/
+    /* position: sticky, and top:0, z-index:100, allows the header to stay at the top as we scroll up and down the page*/
     position: sticky;
     top:0;
-    background-color: black;
     z-index: 100;
+    background-color: black;
     width: 100%;
 }
 
@@ -17,6 +17,7 @@
     object-fit: contain;
     height:100px;
     margin-left:20px;
+    margin-top:10px;
 }
 
 .header_center{
