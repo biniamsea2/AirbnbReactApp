@@ -1,0 +1,7 @@
+.header_logo{
+    /* object-fit, keeps aspect ratio  */
+    object-fit: contain;
+    height:100px;
+    margin-left:20px;
+
+}
