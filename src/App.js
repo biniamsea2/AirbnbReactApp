@@ -1,5 +1,7 @@
 import './App.css';
 import Home from './Home';
+import Header from './Header';
+
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
     // BEM
     <div className="app">
 
-
+      <Header/>
       <Home/>
       {/* Home */}
         {/* Header */}
@@ -20,6 +22,8 @@ function App() {
         {/* Footer */}
 
       {/* SearchPage */}
+        {/* Header */}
+
           {/*  */}
 
     </div>
