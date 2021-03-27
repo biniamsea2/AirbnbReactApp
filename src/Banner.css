@@ -15,9 +15,11 @@ h1{
     position:relative;
     width: 95vw;
     margin: auto; */
+    background-color: black;
 }
 .banner > img{
-    height:55vh;
+    width: 95%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto 

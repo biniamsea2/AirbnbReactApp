@@ -7,6 +7,9 @@ function Banner() {
         <div className="banner">
             <img src ="http://localhost:3000/static/media/banner.d314b5a0.jpg" alt="banner img"/>
             <h1>Made possible by Hosts </h1>
+            <div className="banner_info">
+                <h2>Get out and stretch your imagination </h2>
+            </div>
         </div>
     )
 }
