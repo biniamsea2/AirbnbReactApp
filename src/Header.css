@@ -34,8 +34,28 @@ color:white;
     /* align items:center puts everything on the same row with other components*/
     align-items: center;
     color:white;
-
 }
+
+.header_right > p{
+    margin-right:20px;
+}
+
+
+.becomeAHost{
+    padding: 12px;
+    text-decoration:none !important;
+
+    
+}
+
+.becomeAHost:hover{
+    background-color: #222222;
+    border-radius: 22px;
+    text-decoration:none;
+}
+
+
+
 .MuiAvatar-root{
     margin-right:75px;
 }
