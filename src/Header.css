@@ -9,7 +9,7 @@
     top:0;
     z-index: 100;
     background-color: black;
-    width: 100%;
+    max-width: 100%;
 }
 
 .header_logo{
