@@ -11,7 +11,7 @@ function Header() {
     <div className="header">
       <img
         className="header_logo"
-        src="https://img.melodylinhart.com/350-_-263-_-70-_-starpng.com/public/uploads/preview/airbnb-logo-airbnb-logo-white-on-black-png-image-transparent-101576586899a2xgsawyyh.png"
+        src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032017/untitled-6_25.png?itok=9ZEI6gJ3"
         alt="airbnb logo"
       />
 
