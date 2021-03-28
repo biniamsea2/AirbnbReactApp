@@ -1,50 +1,33 @@
 h1{
-    color:rgb(226, 224, 224);
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing:-0.02em;
+ 
 
 }
 
-.banner {
-    /* text-align: center; */
 
-    height:50vh;
-    /* position:relative; */
-    /* background: url("C:\Users\kifle\Desktop\Coding\Projects\airbnb-react-app\src\Images\1.jpg") center center; */
-    /* background-repeat: no-repeat; */
-    
-
-
-
-
-    /* background-color: black; */
-}
-#test{
+#backgroundImg{
     min-height:100%;
     min-width:100%;
-    height:auto;
-    width:auto;
+    height:99%;
+    width:99%;
     position:absolute;
     top:-100%; bottom:-100%;
     left:-100%; right:-100%;
     margin:auto;
+    z-index: -1;
 }
 
 
 .banner_info{
     /* background-color:white; */
     color:white;
-    padding-top:25vh;
+    padding-top:10vh;
     padding-bottom:40px;
     padding-left:50px;
     padding-right:50px;
     width:300px;
     margin-left:50px;
+    z-index: 99;
+    font-size: 25px;
 }
 .banner_info > button{
     background-color:white;
