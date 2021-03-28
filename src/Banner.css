@@ -30,11 +30,15 @@ h1{
     font-size: 25px;
 }
 .banner_info > button{
-    background-color:white;
+    background-color:#ff7779;
     /* border-radius: 8; */
-    color:black;
     text-transform: inherit;
     margin-top:20px;
     font-weight:600;
+
+}
+
+.MuiButton-label{
+    color:white;
 
 }

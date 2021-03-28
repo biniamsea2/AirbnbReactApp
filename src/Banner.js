@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Banner.css";
 import "./Button.css";
-import {Button} from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import image1 from "./Images/1.jpg";
 
 
