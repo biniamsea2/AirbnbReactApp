@@ -11,7 +11,7 @@ function Header() {
     <div className="header">
       <img
         className="header_logo"
-        src="https://www.pikpng.com/pngl/m/257-2571978_genesys-support-for-airbnb-airbnb-white-logo-transparent.png"
+        src="https://www.seekpng.com/png/detail/234-2340785_airbnb.png"
         alt="airbnb logo"
       />
 
@@ -25,7 +25,7 @@ function Header() {
           <p>Become a host </p>
         </div>
         <Language className="becomeAHost" />
-        <ExpandMoreIcon />
+        <ExpandMoreIcon style={{ fill: "white" }} />
         <Avatar />
       </div>
     </div>
