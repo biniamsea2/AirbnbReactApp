@@ -13,19 +13,19 @@ h1{
 .banner{
     height:50vh;
     position:relative;
-    background: url("https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=960") center center;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/6c9a9a99-9c38-417e-a7f5-a45ede9b3407-1532627926.jpg?crop=1.00xw:0.753xh;0,0.227xh&resize=480:*") center center;
 
 
 
     /* background-color: black; */
 }
-.banner > img{
+/* .banner > img{
     width: 95%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto 
-}
+} */
 
 .banner_info{
     background-color:white;
