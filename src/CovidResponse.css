@@ -1,16 +1,21 @@
-.covidResponse{
-    background-color:#222222;
+ .covidResponse{
     font-weight: 600;
     font-family: inherit;
     text-align: center;
+    margin-top: 5px;
+
 }
+
 .covidResponse > a{
-    color: rgb(173, 172, 172);
-    line-height: 60px;
+    color: black;
     font-size:14px;
-    background-color:#222222;
     }
+    
 a:hover {
-    color: #A3A3A3CC;
+    color: #eeececcc;
     }
-   
+    
+
+a:visited{
+    color:black;
+}
