@@ -54,7 +54,8 @@ background-color: white;
 }
 
 
-.becomeAHost > p{
+.becomeAHost {
+    color:white;
     /* padding: 11px; */
     /* text-decoration:none !important; */
 }
@@ -69,4 +70,8 @@ background-color: white;
 
 .MuiAvatar-root{
     /* margin-right:75px; */
+    background-color:white;
+
+}
+.ExpandMoreIcon{
 }
