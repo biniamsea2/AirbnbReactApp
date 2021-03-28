@@ -13,7 +13,8 @@ h1{
 .banner {
     height:50vh;
     position:relative;
-    background-image: url("https://globalmunchkins.com/wp-content/uploads/2019/02/Screen-Shot-2020-06-25-at-10.55.17-AM.png");
+    background: url("https://lh3.googleusercontent.com/proxy/C8hfNbo9oEW3C-9Wp_vLLOWyu86MIcbtOXrCIZyH9nVOYlFRkZtRGPM8-LOQKBwwftzwL0LqXQS6hQBj8wIwDi5aVtRIwLm8HDgAcwNtNBDdZ2eFr6MLlO8kc8X3lgb4pMfun57Smg") center center;
+    background-repeat: no-repeat;
 
 
 
