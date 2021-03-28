@@ -11,10 +11,12 @@ h1{
 }
 
 .banner {
+    /* text-align: center; */
+
     height:50vh;
-    position:relative;
-    background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
-    background-repeat: no-repeat;
+    /* position:relative; */
+    /* background: url("C:\Users\kifle\Desktop\Coding\Projects\airbnb-react-app\src\Images\1.jpg") center center; */
+    /* background-repeat: no-repeat; */
     
 
 
@@ -22,16 +24,20 @@ h1{
 
     /* background-color: black; */
 }
-/* .banner > img{
-    width: 95%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-} */
+#test{
+    min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;
+}
+
 
 .banner_info{
-    background-color:white;
+    /* background-color:white; */
     color:white;
     padding-top:25vh;
     padding-bottom:40px;
@@ -41,8 +47,9 @@ h1{
     margin-left:50px;
 }
 .banner_info > button{
-    background-color:#ff7779;
-    color:white;
+    background-color:white;
+    /* border-radius: 8; */
+    color:black;
     text-transform: inherit;
     margin-top:20px;
     font-weight:600;
