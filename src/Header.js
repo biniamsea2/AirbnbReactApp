@@ -5,18 +5,20 @@ import Language from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 // avatar creates a icon for user:
 import { Avatar } from "@material-ui/core";
+import newlogo from "./Images/newlogo.png";
+
 
 function Header() {
   return (
     <div className="header">
       <img
         className="header_logo"
-        src="https://www.seekpng.com/png/detail/234-2340785_airbnb.png"
+        src={newlogo}
         alt="airbnb logo"
       />
 
       <div className="header_center">
-        <input type="text" />
+        <input type="text" placeholder="Where are you going" />
         <Search />
       </div>
 

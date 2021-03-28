@@ -15,9 +15,12 @@
 .header_logo{
     /* object-fit, keeps aspect ratio  */
     object-fit: contain;
-    height:100px;
-    margin-left:50px;
-    margin-top:10px;
+    /* height:80px; */
+    margin-left:70px;
+    /* margin-top:10px; */
+
+    width:inherit;
+
 }
 
 .header_center{
@@ -34,7 +37,7 @@ background-color: white;
 }
 .header_center > input {
     border:none;
-    width: 250px;
+    width: 200px;
     padding: 10px;
     /* removes the line for the input box */
     outline-width:0;
@@ -60,11 +63,11 @@ background-color: white;
     /* text-decoration:none !important; */
 }
 
-/* .becomeAHost:hover{
-    background-color: #222222;
-    border-radius: 22px;
-    text-decoration:none;
-} */
+.becomeAHost:hover{
+    border-radius: 8px;
+    color:white;
+    text-decoration:underline;
+}
 
 
 
@@ -72,6 +75,4 @@ background-color: white;
     /* margin-right:75px; */
     background-color:white;
 
-}
-.ExpandMoreIcon{
 }
