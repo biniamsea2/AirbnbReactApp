@@ -11,7 +11,7 @@ function Header() {
     <div className="header">
       <img
         className="header_logo"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3N8ViojAr8z2j20GcXJVYlH7mTM3G0uD91A&usqp=CAU"
+        src="https://www.pikpng.com/pngl/m/257-2571978_genesys-support-for-airbnb-airbnb-white-logo-transparent.png"
         alt="airbnb logo"
       />
 

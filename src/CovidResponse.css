@@ -7,15 +7,17 @@
 }
 
 .covidResponse > a{
-    color: black;
-    font-size:14px;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    text-decoration: none;
     }
     
 a:hover {
-    color: #eeececcc;
+    text-decoration: underline;
     }
     
 
 a:visited{
-    color:black;
+    color:white;
 }
