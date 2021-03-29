@@ -15,5 +15,10 @@
 
 .guest {
     background-color: white;
+    line-height:30px;
+    color: grey;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width:573px;
 
 }
