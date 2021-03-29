@@ -14,12 +14,15 @@
 
 .header_logo{
     /* object-fit, keeps aspect ratio  */
-    object-fit: contain;
+    /* object-fit: contain; */
     /* height:80px; */
-    margin-left:70px;
+    margin-left:5%;
     /* margin-top:10px; */
+    width: 15%;
+    height:auto;
 
-    width:inherit;
+
+    /* width:inherit; */
 
 }
 
@@ -34,6 +37,7 @@ height: 30px;
 border-radius: 999px;
 border:1px solid lightgray;
 background-color: white;
+/* margin-left:110px; */
 }
 .header_center > input {
     border:none;
