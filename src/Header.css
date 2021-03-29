@@ -14,27 +14,15 @@
 }
 
 .header_logo{
-    /* object-fit, keeps aspect ratio  */
-    /* object-fit: contain; */
-    /* height:80px; */
-    /* margin-left:5%; */
     padding-left: 100px;
     /* justify-content:space-between; */
-     
-    /* margin-right:5%; */
-    /* margin-top:10px; */
     width: 10%;
-    /* height:auto; */
-
-
-    /* width:inherit; */
-
 }
 
 .header_center{
 display: flex;
 /* this will allow the input field to take up the majority of the room */
-/* flex:1; */
+flex:1;
 align-items: center;
 max-width: fit-content;
 padding:10px;
@@ -45,9 +33,6 @@ background-color: white;
 
 
 
-/* margin-left: 25%; */
-/* justify-content: center; */
-
 
 }
 .header_center > input {
@@ -56,9 +41,8 @@ background-color: white;
     padding: 10px;
     /* removes the line for the input box */
     outline-width:0;
-    
-
     }
+
 
 .header_right{
     /* display:flex, puts everything within the div into the same row  */
@@ -90,8 +74,7 @@ background-color: white;
 
 
 
-.MuiAvatar-root{
-    /* margin-right:75px; */
+/* .MuiAvatar-root{
+    margin-right:75px;
     background-color:white;
-
-}
+} */
