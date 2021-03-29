@@ -1,14 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Banner.css";
 import "./Button.css";
 import { Button } from "@material-ui/core";
 import image1 from "./Images/1.jpg";
 
 function Banner() {
+  //setting the show dates button to false
+  const [showSearch, setShowSearch] = useState(false);
+
+
   return (
     <div className="banner">
-      <div className="banner_search">
-        <Button className="banner_searchButton" variant="outlined">
+      <div className="banner_search">{showSearch &&<h1>Show Date Picker</h1>}
+      {/* onClick set showSearch to the opposite of what the default is (false)  */}
+        <Button onClick={() => setShowSearch(!showSearch)} className="banner_searchButton" variant="outlined">
           Search Dates
         </Button>
       </div>
