@@ -4,7 +4,7 @@ import Search from "@material-ui/icons/Search";
 import Language from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 // avatar creates a icon for user:
-import { Avatar, Button } from "@material-ui/core";
+import { Avatar } from "@material-ui/core";
 import newlogo from "./Images/newlogo.png";
 
 
