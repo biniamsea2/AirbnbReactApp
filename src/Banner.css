@@ -1,5 +1,5 @@
 .banner{
- /* width: 100%; */
+
 
 }
 
@@ -42,7 +42,6 @@
     background-color:white;
     color:#ff7779;
     text-transform: inherit;
-    margin-top:20px;
     font-weight:600;
 
 }
@@ -60,10 +59,9 @@
     color:#ff7779 !important;
     margin:0 auto !important;
     display:block !important;
-
-
 }
 .banner_search{
-
+    padding-left:30px;
+    margin-top:5px;
 }
 
