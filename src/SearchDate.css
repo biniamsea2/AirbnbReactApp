@@ -1,10 +1,10 @@
 .search_date{
     position:absolute;
-    display: flex;
+    /* display: flex; */
     top:150px;
     justify-content: center;
     width:70vw;
-    left:25%;
+    left:30%;
 
 }
 .DateRangePicker{
