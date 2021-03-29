@@ -1,10 +1,10 @@
 .search_date{
     position:absolute;
-    display: flex;
+    /* display: flex; */
     top:150px;
     justify-content: center;
     width:70vw;
-    left:25%;
+    left:30%;
 
 }
 .DateRangePicker{
@@ -15,5 +15,10 @@
 
 .guest {
     background-color: white;
+    line-height:30px;
+    color: grey;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width:573px;
 
 }
