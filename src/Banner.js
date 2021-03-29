@@ -13,7 +13,7 @@ function Banner() {
   return (
     <div className="banner">
       {/* if showSearch is true then display the SearchDate Component:  */}
-      <div className="banner_search">{showSearch && <SearchDate/>}
+      <div className="banner_search">{showSearch && <SearchDate/> }
       {/* onClick set showSearch to the opposite of what the default is (false)  */}
         <Button onClick={() => setShowSearch(!showSearch)} className="banner_searchButton" variant="outlined">
           Search Dates

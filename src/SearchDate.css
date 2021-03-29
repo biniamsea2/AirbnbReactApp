@@ -1,0 +1,43 @@
+.search_date{
+    text-align:center;
+
+}
+.DateRangePicker{
+    display:inline-block;
+    margin:0 auto;
+}
+.numberofGuest > h2{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top:380px;
+
+}
+
+.search_date > input{
+    width: 100%;
+    padding-bottom: 5px;
+    position: absolute;
+    left:0;
+    height: 20px;
+    top:420px;
+    border:none;
+}
+
+
+.search_date > h2{
+    background-color:white;
+    /* width:41%; */
+    color:rgba(68, 68, 68, 0.561);
+    display:flex;
+    /* margin-left:346.5px; */
+}
+.guest {
+    background-color: white ;
+}
