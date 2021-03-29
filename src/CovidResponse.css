@@ -7,7 +7,7 @@
 }
 
 .covidResponse > a{
-    color: white;
+    color: grey;
     font-size:18px;
     font-weight: bold;
     text-decoration: none;
@@ -19,5 +19,5 @@ a:hover {
     
 
 a:visited{
-    color:white;
+    color:grey;
 }

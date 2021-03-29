@@ -1,0 +1,11 @@
+.card{
+    margin:360px 10px 10px 10px;
+    
+}
+.card > img{
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
