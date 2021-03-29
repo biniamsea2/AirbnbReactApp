@@ -3,7 +3,8 @@
     display: flex;
     top:150px;
     justify-content: center;
-    width: 100vw;
+    width:70vw;
+    left:25%;
 
 }
 .DateRangePicker{
