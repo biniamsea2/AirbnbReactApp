@@ -2,13 +2,14 @@
     /* puts it into a row */
     display:flex;
     /* gives space between each div */
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     /* position: sticky, and top:0, z-index:100, allows the header to stay at the top as we scroll up and down the page*/
     position: sticky;
     top:0;
     z-index: 100;
     /* background-color: black; */
+
     max-width: 100%;
 }
 
@@ -16,10 +17,14 @@
     /* object-fit, keeps aspect ratio  */
     /* object-fit: contain; */
     /* height:80px; */
-    margin-left:5%;
+    /* margin-left:5%; */
+    padding-left: 100px;
+    /* justify-content:space-between; */
+     
+    /* margin-right:5%; */
     /* margin-top:10px; */
-    width: 15%;
-    height:auto;
+    width: 10%;
+    /* height:auto; */
 
 
     /* width:inherit; */
@@ -29,7 +34,7 @@
 .header_center{
 display: flex;
 /* this will allow the input field to take up the majority of the room */
-flex:1;
+/* flex:1; */
 align-items: center;
 max-width: fit-content;
 padding:10px;
@@ -37,32 +42,42 @@ height: 30px;
 border-radius: 999px;
 border:1px solid lightgray;
 background-color: white;
-/* margin-left:110px; */
+
+
+
+/* margin-left: 25%; */
+/* justify-content: center; */
+
+
 }
 .header_center > input {
     border:none;
-    width: 200px;
+    width: 250px;
     padding: 10px;
     /* removes the line for the input box */
     outline-width:0;
     
+
     }
 
 .header_right{
     /* display:flex, puts everything within the div into the same row  */
     display: flex;
+    /* position:absolute;
+    right:0; */
     /* align items:center puts everything on the same row with other components*/
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* color:white; */
     width: 15vw;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 
 }
 
 
 .becomeAHost {
     color:white;
+    margin-right: 5px;
     /* padding: 11px; */
     /* text-decoration:none !important; */
 }
