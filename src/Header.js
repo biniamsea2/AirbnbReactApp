@@ -7,24 +7,15 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
 import newlogo from "./Images/newlogo.png";
 
-
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header_logo"
-        src={newlogo}
-        alt="airbnb logo"
-      />
+      <img className="header_logo" src={newlogo} alt="airbnb logo" />
 
       <div className="header_center">
         <input type="text" placeholder="Where are you going" />
         <Search />
       </div>
-
-
-
-
 
       <div className="header_right">
         <div className="becomeAHost">
