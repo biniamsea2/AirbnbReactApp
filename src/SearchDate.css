@@ -16,9 +16,33 @@
 .guest {
     background-color: white;
     line-height:30px;
-    color: grey;
+    color: black;
     padding-left: 5px;
     padding-bottom: 5px;
     width:573px;
+
+}
+.guest > input{
+    border:none;
+    width: 560px;
+    }
+
+.guest > input:focus{
+outline-width:0;
+}
+
+#guestButton{
+    color: white; 
+    background:#ff7779; 
+    font-weight:bold; 
+    border-radius:0;  
+    width:578px;
+    /* button smaller: */
+    /* margin-left:440px;
+    margin-top:5px; */
+}
+#guestButton:hover{
+    background-color: white;
+    color:#ff7779
 
 }
