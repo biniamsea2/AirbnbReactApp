@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Banner.css";
 import "./Button.css";
 import { Button } from "@material-ui/core";
@@ -9,14 +9,19 @@ function Banner() {
   //setting the show dates button to false
   const [showSearch, setShowSearch] = useState(false);
 
-
   return (
     <div className="banner">
       {/* if showSearch is true then display the SearchDate Component:  */}
-      <div className="banner_search">{showSearch && <SearchDate/> }
-      {/* onClick set showSearch to the opposite of what the default is (false)  */}
-        <Button onClick={() => setShowSearch(!showSearch)} className="banner_searchButton" variant="outlined">
-          Search Dates
+      <div className="banner_search">
+        {showSearch && <SearchDate />}
+        {/* onClick set showSearch to the opposite of what the default is (false)  */}
+        <Button
+          onClick={() => setShowSearch(!showSearch)}
+          className="banner_searchButton"
+          variant="outlined"
+        >
+          {/* if showSearch is true show "Hide" otherwise show "Search Dates" */}
+          {showSearch ? "Close Calendar" : "Search Dates"}
         </Button>
       </div>
       <div className="banner_info">
