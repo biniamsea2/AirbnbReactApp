@@ -30,14 +30,19 @@ function SearchDate() {
       {/* pass in the array object, then onchange we pass in the handleSelect function (which sets the dates) */}
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
       <div>
-        <h1 className="guest">Guests: <People/><br></br><input min={1} type="number" placeholder="Add guests" /></h1>
-        
-        <Button Style="color: #ff7779; background:white; font-weight:bold; margin-top:5px; margin-left:440px;">
+        <h1 className="guest">
+          Guests: <People />
+          <br></br>
+          <input min={1} type="number" placeholder="Add guests" />
+        </h1>
+
+        <Button id="guestButton" >
           Search Airbnb
         </Button>
       </div>
     </div>
   );
 }
+// margin-top:5px;
 
 export default SearchDate;
