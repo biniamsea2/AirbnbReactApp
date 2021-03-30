@@ -8,7 +8,7 @@ function Card({src, title, description,price}) {
             <img src={src} alt="card"/>
             <div className="card_info">
                 <h2 Style="color:black; font-size:20px; font-family:arial; margin-top:8px;">{title}</h2>
-                <h4 Style="color:black">{description}</h4>
+                <h4 >{description}</h4>
                 <h3>{price}</h3>
 
             </div>
