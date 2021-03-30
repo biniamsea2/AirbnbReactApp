@@ -41,15 +41,8 @@ function Home() {
           Turn your extra space into your next <br></br>opportunity.
         </h5>
 
-        <form>
-          <button
-            onClick={() => {
-              window.open("https://www.airbnb.com/host/homes?locale=en");
-            }}
-          >
-            Become a Host
-          </button>
-        </form>
+        <button><a href="https://www.airbnb.com/host/homes?locale=en">Become a Host</a></button>
+
       </div>
       <div className="home_section">
         <Card
@@ -60,7 +53,9 @@ function Home() {
         />
       </div>
       <h2 className="discover">Discover Experiences</h2>
-      <h3 className="unique">Unique activities with local experts—in person or online.</h3>
+      <h3 className="unique">
+        Unique activities with local experts—in person or online.
+      </h3>
       <div className="home_section">
         <Card
           src="https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=1200"

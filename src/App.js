@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Home';
 import Header from './Header';
 import CovidResponse from './CovidResponse';
+import Footer from './Footer';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <CovidResponse/>
       <Header/>
       <Home/>
+      <Footer/>
       {/* Home */}
         {/* Header */}
 
