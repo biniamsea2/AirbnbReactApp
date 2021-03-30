@@ -3,30 +3,26 @@
     padding: 20px;
     background-color: #f7f7f7;
     text-align:left;
-    
-    
 }
+
 .footer > p{
     display: inline-block;
     margin-left: 25px;
 }
+
 .footer > button{
     border: none;
     background-color: #f7f7f7;
 
 }
+
 .footer > button:hover{
     text-decoration: underline;
-
 }
-
-
 
 .footer > button > a{
     font-size: 14px;
     color:#222222;
     margin-left: 25px;
     text-decoration: none;
-
-
 }
