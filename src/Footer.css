@@ -2,11 +2,12 @@
     border-top:1px solid lightgrey;
     padding: 20px;
     background-color: #f7f7f7;
+    text-align:left;
     
     
 }
 .footer > p{
-    
+    display: inline-block;
     margin-left: 25px;
 }
 .footer > button{
