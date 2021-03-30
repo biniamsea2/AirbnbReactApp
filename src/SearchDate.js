@@ -31,7 +31,7 @@ function SearchDate() {
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
       <div>
         <h1 className="guest">
-          Guests: <People />
+          Guests <People />
           <br></br>
           <input min={1} type="number" placeholder="Add guests" />
         </h1>
