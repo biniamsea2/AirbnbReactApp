@@ -17,7 +17,6 @@
 
 }
 
-
 .banner_info{
     /* background-color:white; */
     color:white;
@@ -27,7 +26,13 @@
     padding-right:50px;
     width:300px;
     margin-left:50px;
+    font-size: 20px;
 }
+
+.imagination{
+    width:400px;
+}
+
 .banner_info > button{
     background-color:#ff7779;
     color:white;
