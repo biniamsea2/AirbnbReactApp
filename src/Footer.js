@@ -24,7 +24,7 @@ function Footer() {
           <a href="https://www.airbnb.com/sitemaps/v2">Sitemap</a>
         </button>
 
-        <div className="test">
+        <div className="footerRightContainer">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -47,9 +47,26 @@ function Footer() {
             <FacebookIcon className="footerRight" style={{ color: "black" }} />{" "}
           </a>
 
-          <p className="footerRight">$ USD</p>
+          <a
+            className="footerRight"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.airbnb.com/"
+            Style="color:black;"
+          >
+            $ USD
+          </a>
+
           <div className="footerRight">
-            <p className="footerRight">English (US)</p>
+            <a
+              className="footerRight"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.airbnb.com/"
+              Style="color:black;"
+            >
+              English (US)
+            </a>
           </div>
           <a
             target="_blank"
