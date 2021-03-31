@@ -5,7 +5,7 @@
     text-align:left;
 }
 
-.footer > p{
+.airbnb_demo{
     display: inline-block;
     margin-left: 25px;
 }
@@ -27,8 +27,31 @@
     text-decoration: none;
 }
 
-/* languageIcon */
-.MuiSvgIcon-fontSizeSmall {
+
+
+/* english and usd  in footer */
+.footerRight{
+    float:right;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-right:5px;
+    
+}
+.footerRight:hover{
+    opacity:.5;
+    cursor: pointer;
+
+}
+
+.footerRight > p{
+    display: inline;
+}
+
+.test{
     float: right;
-    /* margin-left: 100px; */
+    margin-right:25px;
 }
