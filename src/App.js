@@ -14,11 +14,12 @@ function App() {
         {/* no switch here so the app will always render covidResponse and Header */}
         <CovidResponse />
         <Header />
-        {/* once we hit path "/" then it will render the home page*/}
+        {/* order of routes matter. home route should be at the bottom */}
         <Switch>
           <Route path="/search">
             <Search />
           </Route>
+        {/* once we hit path "/" then it will render the home page*/}
           <Route path="/">
             <Home />
           </Route>
