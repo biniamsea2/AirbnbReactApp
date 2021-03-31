@@ -27,6 +27,7 @@ position:absolute;
  z-index:999; 
  margin:70px 0px 0px 100px;
  font-size:20px;
+ 
 
 }
 .your_world>button{
@@ -40,6 +41,7 @@ position:absolute;
     color: black;
     padding: 12px 22px;
     cursor: pointer;
+    color:red;
 }
 
 .discover {

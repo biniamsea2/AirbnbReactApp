@@ -26,7 +26,7 @@ function Banner() {
       </div>
       <div className="banner_info">
         <img id="backgroundImg" src={image1} alt=""></img>
-        <h1>Get out and stretch your imagination </h1>
+        <h1 className="imagination">Get out and stretch your imagination </h1>
         <h5>
           Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>

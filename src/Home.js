@@ -41,7 +41,7 @@ function Home() {
           Turn your extra space into your next <br></br>opportunity.
         </h5>
 
-        <button><a href="https://www.airbnb.com/host/homes?locale=en">Become a Host</a></button>
+        <button><a href="https://www.airbnb.com/host/homes?locale=en" Style="text-decoration:none;">Become a Host</a></button>
 
       </div>
       <div className="home_section">
