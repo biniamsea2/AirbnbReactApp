@@ -16,4 +16,6 @@
     background-color: white;
     height:80px;
     position: sticky;
+    border-bottom: 1px solid lightgray;
+    margin-top:0;
 }
