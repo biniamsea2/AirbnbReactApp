@@ -12,17 +12,18 @@ function App() {
     // BEM
     <div className="app">
       <Router>
-        {/* no switch here so the app will always render covidResponse and Header */}
+        {/* no switch here, so the app will always render covidResponse and Header */}
         <CovidResponse />
         {/* order of routes matter. home route should be at the bottom */}
         <Switch>
           <Route path="/search">
+            {/* created second header b/c I wanted the header from home to be different from this one */}
             <HeaderSearch />
             <Search />
           </Route>
           {/* once we hit path "/" then it will render the home page*/}
           <Route path="/">
-        <Header />
+            <Header />
             <Home />
           </Route>
         </Switch>
