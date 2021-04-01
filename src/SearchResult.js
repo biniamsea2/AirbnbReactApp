@@ -1,7 +1,7 @@
 import React from "react";
 import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import StarIcon from '@material-ui/icons/Star';
+import StarIcon from "@material-ui/icons/Star";
 
 function SearchResult({
   img,
@@ -15,7 +15,7 @@ function SearchResult({
   return (
     <div className="searchResult">
       <img src={img} alt="location" />
-      <FavoriteBorderIcon className="searchResult_favorite" />
+      <FavoriteBorderIcon className="searchResult_heart" />
 
       <div className="searchResult_info">
         <div className="searchResult_infoTop">
@@ -32,8 +32,10 @@ function SearchResult({
               <strong>{star}</strong>
             </p>
           </div>
-          <p>{price}</p>
-          <p>{total}</p>
+          <div className="searchResult_price">
+            <h2>{price}</h2>
+            <p>{total}</p>
+          </div>
         </div>
       </div>
     </div>
