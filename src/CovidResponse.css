@@ -3,8 +3,6 @@
     font-family: inherit;
     text-align: center;
     margin-top: 10px;
-
-
 }
 
 .covidResponse > a{
@@ -12,11 +10,11 @@
     font-size:16px;
     font-weight: bold;
     text-decoration: none;
-    }
+}
     
 a:hover {
     text-decoration: underline;
-    }
+}
     
 
 a:visited{
