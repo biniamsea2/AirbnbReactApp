@@ -4,6 +4,10 @@
 }
 
 .headerSearchLogo{
-    width:10%;
-    padding-left: 50px;
+    width:100%;
+}
+
+.logoContainer{
+    width: 10%;
+    margin-left: 50px;
 }

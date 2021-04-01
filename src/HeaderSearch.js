@@ -8,10 +8,13 @@ import "./HeaderSearch.css";
 function HeaderSearch() {
   return (
     <div className="header">
-      <img className="headerSearchLogo"
-        src="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-logo.jpg"
-        alt="logo"
-      />
+      <a className="logoContainer"href="/">
+        <img
+          className="headerSearchLogo"
+          src="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-logo.jpg"
+          alt="logo"
+        />
+      </a>
 
       <div className="header_center">
         <input type="text" placeholder="Where are you going" />
@@ -31,4 +34,3 @@ function HeaderSearch() {
 }
 
 export default HeaderSearch;
-
