@@ -20,9 +20,9 @@ function HeaderSearch() {
 
       <div className="header_right">
         <div className="becomeAHost">
-          <p>Become a host </p>
+          <p Style="color:black;">Become a host </p>
         </div>
-        <Language className="test" />
+        <Language className="language" />
         <ExpandMoreIcon style={{ fill: "black" }} />
         <Avatar />
       </div>
