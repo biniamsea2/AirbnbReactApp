@@ -63,6 +63,8 @@ background-color: white;
 .becomeAHost {
     color:white;
     margin-right: 5px;
+    font-size: 14px;
+    font-weight: 600;
     /* padding: 11px; */
     /* text-decoration:none !important; */
 }
