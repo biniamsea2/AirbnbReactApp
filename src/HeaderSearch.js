@@ -18,7 +18,7 @@ function HeaderSearch() {
       </Link>
 
       <div className="header_center">
-        <input type="text" placeholder="Where are you going" />
+        <input type="text" placeholder="Start your search" />
         <Search />
       </div>
 
