@@ -13,7 +13,7 @@ function Header() {
       <img className="header_logo" src={newlogo} alt="airbnb logo" />
 
       <div className="header_center">
-        <input type="text" placeholder="Where are you going" />
+        <input type="text" placeholder="Start your search" Style="color:red;" />
         <Search />
       </div>
 

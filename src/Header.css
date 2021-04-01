@@ -76,8 +76,8 @@ background-color: white;
 }
 
 
-
-/* .MuiAvatar-root{
-    margin-right:75px;
-    background-color:white;
-} */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    font-weight: 600;
+    font-size: 14px;
+  }

@@ -3,8 +3,11 @@ import "./Banner.css";
 import { Button } from "@material-ui/core";
 import image1 from "./Images/1.jpg";
 import SearchDate from "./SearchDate";
+import { useHistory } from "react-router-dom";
+
 
 function Banner() {
+  const history = useHistory();
   //setting the show dates button to false
   const [showSearch, setShowSearch] = useState(false);
 
@@ -29,7 +32,7 @@ function Banner() {
         <h5>
           Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>
-        <Button>Explore Nearby</Button>
+        <Button onClick ={() => history.push('/search')}>Explore Nearby</Button>
       </div>
     </div>
   );
