@@ -4,6 +4,7 @@ import Header from "./Header";
 import Search from "./Search";
 import CovidResponse from "./CovidResponse";
 import Footer from "./Footer";
+import HeaderSearch from "./HeaderSearch";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -13,14 +14,15 @@ function App() {
       <Router>
         {/* no switch here so the app will always render covidResponse and Header */}
         <CovidResponse />
-        <Header />
         {/* order of routes matter. home route should be at the bottom */}
         <Switch>
           <Route path="/search">
+            <HeaderSearch />
             <Search />
           </Route>
-        {/* once we hit path "/" then it will render the home page*/}
+          {/* once we hit path "/" then it will render the home page*/}
           <Route path="/">
+        <Header />
             <Home />
           </Route>
         </Switch>
