@@ -7,11 +7,11 @@ import "./HeaderSearch.css";
 
 function HeaderSearch() {
   return (
-    <div className="header">
+    <div className="header headerSearch">
       <a className="logoContainer"href="/">
         <img
           className="headerSearchLogo"
-          src="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-logo.jpg"
+          src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c513.png"
           alt="logo"
         />
       </a>

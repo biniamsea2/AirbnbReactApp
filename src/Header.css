@@ -5,7 +5,7 @@
     justify-content:space-between;
     align-items: center;
     /* position: sticky, and top:0, z-index:100, allows the header to stay at the top as we scroll up and down the page*/
-    position: sticky;
+    /* position: sticky; */
     top:0;
     z-index: 100;
     /* background-color: black; */

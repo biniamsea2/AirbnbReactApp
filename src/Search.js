@@ -15,7 +15,24 @@ function Search() {
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
       </div>
-      <SearchResult/>
+      <SearchResult
+        //   images from airbnb seattle
+        img="https://a0.muscache.com/im/pictures/988e9740-496a-44c5-b5ba-94bcad3d6126.jpg?im_w=1200"
+        title="Neabry DT Seattle"
+        description="1 bedroom 1 bathroom 1 kitchen"
+        star="4.93"
+        price="143"
+        total="175.00"
+      />
+      <SearchResult
+        //   images from airbnb seattle
+        img="https://a0.muscache.com/im/pictures/988e9740-496a-44c5-b5ba-94bcad3d6126.jpg?im_w=1200"
+        title="Two-Story, Family-Friendly Home near Downtown Seattle w/Free WiFi & Washer/Dryer"
+        description="4 guests · 2 bedrooms · 3 beds · 1 bath"
+        star="4.93"
+        price="50"
+        total="175.00"
+      />
     </div>
   );
 }
