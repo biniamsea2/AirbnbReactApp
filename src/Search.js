@@ -7,8 +7,8 @@ function Search() {
   return (
     <div className="search">
       <div className="search_info">
-        <p>62 stays - 26 august to 30 august- 2 guest</p>
-        <h1>Stays nearby</h1>
+        <p>7 stays · Apr 3 - 10 · 2 guests</p>
+        <h1>Stays in Seattle</h1>
         <Button variant="outlined">Cancellation flexibility</Button>
         <Button variant="outlined">Type of place</Button>
         <Button variant="outlined">Price</Button>

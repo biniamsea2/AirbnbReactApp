@@ -38,7 +38,7 @@
     width:40vw;
 }
 .searchResult_infoTop > h3{
-    font-weight:300;
+    font-weight:400;
     margin-top:10px;
 }
 .searchResult_infoTop > p{
@@ -46,3 +46,20 @@
     font-size: 13px;
     color:grey;
 }
+.searchResult_star{
+    color:red;
+}
+
+.searchResult_stars{
+    display: flex;
+    align-items: center;
+}
+.searchResult_price{
+    position: absolute;
+    bottom:20px;
+    right:40px;
+}
+.searchResult_price > p{
+    text-align: right;
+}
+
