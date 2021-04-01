@@ -23,7 +23,7 @@ function HeaderSearch() {
 
       <div className="header_right">
         <div className="becomeAHost">
-          <p Style="color:black;">Become a host </p>
+          <p Style="color:black; font-size:14px; font-weight:600;">Become a host </p>
         </div>
         <Language className="language" />
         <ExpandMoreIcon style={{ fill: "black" }} />
