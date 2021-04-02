@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
-Deployed Link [Here] (https://airbnbreactapp.web.app/){:target="_blank" rel="noopener"}
-<a href="https://airbnbreactapp.web.app/" target="_blank">Here</a>
+Deployed Link <a href="https://airbnbreactapp.web.app/" target="_blank">Here</a>
 
 
 
