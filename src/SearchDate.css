@@ -1,16 +1,11 @@
 .search_date{
     position:absolute;
-    /* display: flex; */
     top:150px;
     justify-content: center;
     width:65vw;
     left:30%;
 
 }
-.DateRangePicker{
-}
-
-
 
 .guest {
     background-color: white;
@@ -36,12 +31,8 @@ outline-width:0;
     font-weight:bold; 
     border-radius:0;  
     width:578px;
-    /* button smaller: */
-    /* margin-left:440px;
-    margin-top:5px; */
 }
 #guestButton:hover{
     background-color: white;
     color:#ff7779
-
 }

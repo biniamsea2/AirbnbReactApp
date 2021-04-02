@@ -24,14 +24,13 @@
 }
 
 .becomeAHost2 > p{
-    color:black;
-    text-decoration: none;
+    color:black !important;
     margin-right: 5px;
+    text-decoration: none !important;;
 }
 
 .becomeAHost2 > p:hover{
     opacity: .5;
 
 }
-
 

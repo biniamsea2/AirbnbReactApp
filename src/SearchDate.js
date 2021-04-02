@@ -45,6 +45,5 @@ function SearchDate() {
     </div>
   );
 }
-// margin-top:5px;
 
 export default SearchDate;
