@@ -66,13 +66,24 @@ background-color: white;
     font-size: 14px;
     font-weight: 600;
     /* padding: 11px; */
-    /* text-decoration:none !important; */
+    text-decoration:none ;
+}
+
+.becomeAHost > p:hover{
+    color:lightgray;
+    text-decoration: underline;
+
 }
 
 .becomeAHost:hover{
     border-radius: 8px;
+    opacity: .5;
+    /* text-decoration:underline; */
+    cursor: pointer;
+}
+.becomeAHost:visited{
     color:white;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 

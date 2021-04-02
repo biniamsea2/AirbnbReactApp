@@ -18,10 +18,21 @@ function Header() {
       </div>
 
       <div className="header_right">
-        <div className="becomeAHost">
-          <p>Become a host </p>
-        </div>
-        <Language className="becomeAHost" />
+        <a
+          className="becomeAHost"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.airbnb.com/host/homes"
+        >
+          <p>Become a host</p>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.airbnb.com/?locale=en&country_override=US"
+        >
+          <Language className="becomeAHost" />
+        </a>
         <ExpandMoreIcon style={{ fill: "white" }} />
         <Avatar />
       </div>
