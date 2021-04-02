@@ -23,7 +23,6 @@ function Home() {
             description=""
           />
         </a>
-
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -46,7 +45,6 @@ function Home() {
             description=""
           />
         </a>
-
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -59,7 +57,6 @@ function Home() {
           />
         </a>
       </div>
-
       <div className="your_world">
         <h1>
           Your world is <br></br>worth sharing
@@ -67,7 +64,6 @@ function Home() {
         <h5 Style="margin-top:5px;font-weight:lighter;">
           Turn your extra space into your next <br></br>opportunity.
         </h5>
-
         <button>
           <a
             target="_blank"
