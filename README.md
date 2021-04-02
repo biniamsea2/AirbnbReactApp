@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-Deployed Link [Here](https://airbnbreactapp.web.app/).
+Deployed Link [Here](https://airbnbreactapp.web.app/){:target="_blank" rel="noopener"}
+
 
 ## Available Scripts
 
