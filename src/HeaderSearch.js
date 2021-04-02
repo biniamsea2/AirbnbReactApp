@@ -30,7 +30,7 @@ function HeaderSearch() {
             rel="noopener noreferrer"
             href="https://www.airbnb.com/host/homes"
           >
-            <p className="test">Become a host</p>
+            <p>Become a host</p>
           </a>
         </div>
         <a
