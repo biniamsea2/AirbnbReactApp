@@ -10,11 +10,17 @@
 }
 
 .search_info > h1{
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 
 .search_info > button{
     border-radius: 30px;
     text-transform:inherit;
     margin:5px;
+}
+
+.reviewCovid{
+    margin-top:10px;
+    border-bottom: 1px solid lightgray;
+    line-height: 3em;
 }

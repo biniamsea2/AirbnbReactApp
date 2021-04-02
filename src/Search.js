@@ -14,6 +14,18 @@ function Search() {
         <Button variant="outlined">Price</Button>
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
+
+        <p className="reviewCovid">
+          Review COVID-19 travel restrictions before you book.{" "}
+          <a
+            className="becomeAHost2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.airbnb.com/help/topic/1418/government-travel-restrictions-and-advisories"
+          >
+            Learn more.
+          </a>
+        </p>
       </div>
       <SearchResult
         //   images from airbnb seattle
