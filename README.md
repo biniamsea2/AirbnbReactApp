@@ -5,7 +5,7 @@ Deployed Link [Here](https://airbnbreactapp.web.app/).
 ### Project Summary
 This Airbnb application was created using Visual Studio Code and React.js. The objective for this application was to try and replicate Airbnb.com as much as possible, while becoming more familiar with React.js. In order to successfully build this application I followed numerous tutorials which helped me build a stronger React.js foundation. 
 
-I decided to change the theme of the home screen, which is why the home screen doesn't resemeble the current airbnb's home page. In addition, airbnb is constantly updating their application so some images on my application may no longer be on the current airbnb site.
+I decided to change the theme of the home page, which is why the home page doesn't resemeble the current airbnb's home page. In addition, airbnb is constantly updating their application so some images on my application may no longer be on the current airbnb site.
 
 ### Learning Objectives:
 - Setting up a React App infrastructure
